@@ -1,0 +1,65 @@
+*{
+    font-family: "Nanum Gothic", sans-serif;
+}
+body{
+    margin: 0;
+}
+.fundo{
+    height: 110vh;
+    background-color: #BBC5AA;
+}
+.flex-container{
+    padding: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 900px;
+    border-radius: 10px;
+    background-color: white;
+}
+.profilepic{
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #1B9AAA;
+    border-radius: 50%;
+    margin-top: px;
+    height: 150px;
+    width: 150px;
+}
+p{
+    color: #575c55;
+}
+#card2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#title{
+    margin-left: 10px;
+}
+.udemy{
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    height: 80px;
+    width: 50;
+}
+.fouryou{
+    float: left;
+    margin-top: 0px;
+    margin-left: 60px;
+    height: 80px;
+    width: 50;
+    margin-right: 25px;
+}
+
